@@ -89,10 +89,9 @@ public class Executa {
 		aluno.setTurma(turmaAluno);
 
 		// ------------- Aluno 2
-		
 		Aluno aluno2 = new Aluno();
 
-		aluno2.setNome("Sborbous");
+		aluno2.setNome("Guilherme");
 		aluno2.setCPF("13.142.914-01");
 		aluno2.setMatricula("98712");
 		aluno2.setProgressao(55);
@@ -100,6 +99,7 @@ public class Executa {
 		ArrayList<Turma> turmaAluno2 = new ArrayList<Turma>();
 		turmaAluno2.add(turmaManha2);
 		turmaAluno2.add(turmaTarde);
+		turmaAluno2.add(turmaNoite);
 		aluno2.setTurma(turmaAluno2);		
 
 		// ------------- Aluno 3
