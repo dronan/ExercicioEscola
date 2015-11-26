@@ -81,7 +81,20 @@ public class Executa {
 		aluno.setNome("Diego");
 		aluno.setCPF("123.342.987-85");
 		aluno.setMatricula("abc123456");
-		aluno.setProgressao(50);
+
+
+		CursoAluno cursoAluno = new CursoAluno();
+		cursoAluno.setAluno(aluno);
+		cursoAluno.setTurma(turmaNoite);
+		cursoAluno.setProgresso(20);			
+		
+
+		CursoAluno cursoAluno_1 = new CursoAluno();
+		cursoAluno_1.setAluno(aluno);
+		cursoAluno_1.setTurma(turmaNoite);
+		cursoAluno_1.setProgresso(20);			
+				
+
 		
 		ArrayList<Turma> turmaAluno = new ArrayList<Turma>();
 		turmaAluno.add(turmaManha2);
@@ -92,14 +105,29 @@ public class Executa {
 		
 		Aluno aluno2 = new Aluno();
 
-		aluno2.setNome("Sborbous");
+		aluno2.setNome("Guilherme");
 		aluno2.setCPF("13.142.914-01");
 		aluno2.setMatricula("98712");
-		aluno2.setProgressao(55);
+		
+		CursoAluno cursoAluno2 = new CursoAluno();
+		cursoAluno2.setAluno(aluno2);
+		cursoAluno2.setTurma(turmaManha2);
+		cursoAluno2.setProgresso(78);
+		
+		CursoAluno cursoAluno2_1 = new CursoAluno();
+		cursoAluno2_1.setAluno(aluno2);
+		cursoAluno2_1.setTurma(turmaTarde);
+		cursoAluno2_1.setProgresso(40);
+		
+		CursoAluno cursoAluno2_2 = new CursoAluno();
+		cursoAluno2_2.setAluno(aluno2);
+		cursoAluno2_2.setTurma(turmaNoite);
+		cursoAluno2_2.setProgresso(70);		
 		
 		ArrayList<Turma> turmaAluno2 = new ArrayList<Turma>();
 		turmaAluno2.add(turmaManha2);
 		turmaAluno2.add(turmaTarde);
+		turmaAluno2.add(turmaNoite);
 		aluno2.setTurma(turmaAluno2);		
 
 		// ------------- Aluno 3
@@ -108,7 +136,12 @@ public class Executa {
 		aluno3.setNome("Diogo");
 		aluno3.setCPF("00.122.321-01");
 		aluno3.setMatricula("98712");
-		aluno3.setProgressao(20);
+		
+		CursoAluno cursoAluno3 = new CursoAluno();
+		cursoAluno3.setAluno(aluno3);
+		cursoAluno3.setTurma(turmaNoite);
+		cursoAluno3.setProgresso(20);			
+		
 		
 		ArrayList<Turma> turmaAluno3 = new ArrayList<Turma>();
 		turmaAluno3.add(turmaNoite);
