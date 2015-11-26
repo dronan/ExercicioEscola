@@ -102,7 +102,6 @@ public class Executa {
 		aluno.setTurma(turmaAluno);
 
 		// ------------- Aluno 2
-		
 		Aluno aluno2 = new Aluno();
 
 		aluno2.setNome("Guilherme");
