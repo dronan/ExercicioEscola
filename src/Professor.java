@@ -2,7 +2,6 @@
 public class Professor extends Funcionario {
 
 	private String certificacoes;
-	double salario;
 
 	public String getCertificacoes() {
 		return certificacoes;

@@ -1,6 +1,7 @@
 
 abstract class Funcionario extends Pessoa {
-	private double salario;
+	
+	double salario;
 
 	public double getSalario() {
 		return salario;
