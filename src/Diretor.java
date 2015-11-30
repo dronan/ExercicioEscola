@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class Diretor extends Funcionario {
 
 	String str;
+	double salario;
 
 	public void extrairRelatorio(ArrayList<Aluno> aluno) {
 		for (Aluno aluno2 : aluno) {
@@ -19,6 +20,12 @@ public class Diretor extends Funcionario {
 			System.out.println();
 		}
 
+	}
+	
+	
+	
+	public void setSalario(double salario) {
+		this.salario = salario;
 	}
 
 }

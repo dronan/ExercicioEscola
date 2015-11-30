@@ -4,7 +4,7 @@ public class Executa {
 	public static void main(String[] args) {
 
 		// ------------ Recepcionista
-		Funcionario recepcionista = new Funcionario();
+		Recepcionista recepcionista = new Recepcionista();
 		recepcionista.setNome("Joaquim");
 		recepcionista.setCPF("321.654.987-98");
 		recepcionista.setSalario(500.00);
