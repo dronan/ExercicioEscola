@@ -2,9 +2,10 @@ import java.util.ArrayList;
 
 public class Diretor extends Funcionario {
 
-	String str;
-
 	public void extrairRelatorio(ArrayList<Aluno> aluno) {
+		
+		String str;
+		
 		for (Aluno aluno2 : aluno) {
 
 			for (Turma turma2 : aluno2.getTurma()) {
@@ -20,7 +21,6 @@ public class Diretor extends Funcionario {
 		}
 
 	}
-	
 	
 	
 	public void setSalario(double salario) {
